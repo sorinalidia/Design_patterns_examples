@@ -1,4 +1,8 @@
-public class HTMLButton implements Button{
+package button;
+
+import button.Button;
+
+public class HTMLButton implements Button {
     @Override
     public void render() {
         System.out.println("Web dialog successfully rendered!");

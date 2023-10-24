@@ -1,4 +1,8 @@
-public class WindowsButton implements Button{
+package button;
+
+import button.Button;
+
+public class WindowsButton implements Button {
     @Override
     public void render() {
         System.out.println("Windows dialog successfully rendered!");

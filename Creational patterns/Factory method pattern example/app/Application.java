@@ -1,4 +1,8 @@
-import java.lang.module.Configuration;
+package app;
+
+import dialog.Dialog;
+import dialog.WebDialog;
+import dialog.WindowsDialog;
 
 public class Application {
     Dialog dialog;
