@@ -1,7 +1,7 @@
-package Factory;
+package factory;
 
-import Checkbox.*;
-import Button.*;
+import checkbox.*;
+import button.*;
 
 
 public class MacFactory implements GUIFactory {

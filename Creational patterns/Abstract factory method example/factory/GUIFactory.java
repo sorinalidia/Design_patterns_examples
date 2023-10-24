@@ -1,7 +1,7 @@
-package Factory;
+package factory;
 
-import Checkbox.Checkbox;
-import Button.*;
+import checkbox.Checkbox;
+import button.*;
 
 public interface GUIFactory {
     Button createButton();

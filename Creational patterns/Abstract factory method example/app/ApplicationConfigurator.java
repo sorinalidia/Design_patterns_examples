@@ -1,7 +1,6 @@
-package App;
-import Checkbox.*;
-import Factory.*;
-import Button.*;
+package app;
+import factory.*;
+
 public class ApplicationConfigurator {
     GUIFactory factory;
     public void mainA(String OS){

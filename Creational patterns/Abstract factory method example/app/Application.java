@@ -1,7 +1,6 @@
-package App;
-import Checkbox.*;
-import Factory.*;
-import Button.*;
+package app;
+import factory.*;
+import button.*;
 public class Application {
     private GUIFactory factory;
     private Button button;

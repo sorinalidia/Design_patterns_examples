@@ -1,4 +1,4 @@
-package Button;
+package button;
 
 public class MacButton implements Button {
     public void paint(){
