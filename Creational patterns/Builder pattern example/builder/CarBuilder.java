@@ -1,10 +1,11 @@
-
+package builder;
 //The concrete builder classes follow the builder interface
 //and provide specific implementations of the building steps.
 //Your program may have several variations of builders, each
 //implemented differently.
 
-public class CarBuilder implements Builder{
+import buildings.*;
+public class CarBuilder implements Builder {
     private Car car;
     public CarBuilder(){
         this.reset();

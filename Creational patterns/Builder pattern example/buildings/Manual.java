@@ -1,4 +1,8 @@
-public class Car {
+package buildings;
+
+public class Manual {
+    //each car should have a user manual that corresponds to
+    //the car's configuration and describes all its features
     private int numberOfSeats;
     private String engine;
     private boolean tripComputer;
@@ -19,9 +23,6 @@ public class Car {
         this.GPS=GPS;
     }
 
-    public String buildCheck(){
-        return "Congratulations! A new car has been built!\n";
-    }
     public String toString(){
         String tcCheck,GPScheck;
         if(this.tripComputer){
@@ -39,11 +40,10 @@ public class Car {
         }
 
 
-        return ("Car specifications:\n" +
-                " "+"number of seats: "+ this.numberOfSeats+"\n" +
+        return ("Buildings.Car specifications:\n" +
+                "number of seats: "+ this.numberOfSeats+"\n" +
                 "engine type: " + this.engine+"\n" +
                 "tripComputer: " + tcCheck+"\n" +
                 "GPS: " + GPScheck);
     }
-
 }

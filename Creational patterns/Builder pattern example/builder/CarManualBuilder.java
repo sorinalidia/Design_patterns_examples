@@ -1,4 +1,8 @@
-public class CarManualBuilder implements Builder{
+package builder;
+
+import buildings.*;
+
+public class CarManualBuilder implements Builder {
     private Manual manual;
     public CarManualBuilder(){
         this.reset();
